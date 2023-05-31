@@ -1,0 +1,11 @@
+{% extends 'index.twig' %}
+
+{% block content %}
+    <div class="persoon">
+        <p>User ID: {{ gebruiker.UserID }}</p>
+        <p>Voornaam: {{ gebruiker.voornaam }}</p>
+        <p>Achternaam: {{ gebruiker.achternaam }}</p>
+        <p>Geboortedatum: {{ gebruiker.geboortedatum }}</p>
+        <p>Leeftijd: {{ gebruiker.leeftijd }}</p>
+    </div>
+{% endblock %}
