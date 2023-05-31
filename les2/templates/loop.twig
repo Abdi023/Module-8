@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Loop Example</title>
+</head>
+<body>
+    <h1>Members</h1>
+    <ul>
+        {% for user in users %}
+            <li>{{ user.username|e|lower|upper }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
+
